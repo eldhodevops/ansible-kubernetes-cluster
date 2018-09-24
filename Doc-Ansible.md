@@ -83,7 +83,7 @@ master-ubuntu
 # node-ubuntu
 
 ```
-### Step 2 - Prepare authentication To the Master and Nodes
+### Step 3 - Prepare authentication To the Master and Nodes
 
  All the sample files has been provided in [Ansible playbook group_var directory](ansible/group_vars).
 you need to edit with example bellow
