@@ -14,7 +14,7 @@ apt-get -y install software-properties-common
 apt-add-repository -y ppa:ansible/ansible
 apt-get update
 apt-get install -y ansible python-pip 
-pip install pywinrm
+
 ```
 #### Prepare Master and Linux Nodes 
 
@@ -57,13 +57,13 @@ A sample inventory file has been provided in [Ansible playbook directory](ansibl
 
  - Master node: ubuntu01
  - Linux nodes: ubuntu02, ubuntu03
- - Windows nodes: windows01, windows02
+ 
  
  I have commented some line to make bellow cluster
  
  - Master node: ubuntu01
- - Windows nodes: windows01
- **Note: Do not give hostname in CAPITAL LETTERS . Use small letter. Otherwise windows connection will make trouble**
+ 
+ **Note: Do not give hostname in CAPITAL LETTERS . Use small letter.**
 
 your inventory should be defined as:
 
