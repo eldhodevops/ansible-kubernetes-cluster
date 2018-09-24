@@ -1,0 +1,15 @@
+[master-ubuntu]
+#10.0.0.5 kubernetes_node_hostname=# Provide the hostname
+#10.0.0.5 kubernetes_node_hostname=10.0.0.5
+
+[node-ubuntu]
+# ubuntu02 kubernetes_node_hostname=ubuntu02_some_hostname
+# ubuntu03 kubernetes_node_hostname=ubuntu03_some_hostname
+
+
+[node:children]
+node-ubuntu
+
+[all-ubuntu:children]
+master-ubuntu
+# node-ubuntu

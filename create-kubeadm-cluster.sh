@@ -1,0 +1,1 @@
+ansible-playbook -i inventory create-kubeadm-cluster.yml --tags=init
